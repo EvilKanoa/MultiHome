@@ -1,0 +1,18 @@
+name: MultiHome
+main: ca.kanoa.MultiHome.MultiHome
+version: 0.40
+permissions:
+    mh.set:
+        description: Allows you to set a MultiHome.
+        default: true
+    mh.tp:
+        description: Allows you to teleport to a MultiHome.
+        default: true
+    mh.exempt:
+        description: Allows you to set more homes then the limit set in config.yml
+        default: op
+commands:
+    mhome:
+        description: MultiHome!
+    home:
+        description: MultiHome!
